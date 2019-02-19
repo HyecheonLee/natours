@@ -1,0 +1,3 @@
+@function row-calc($m) {
+  @return calc((100% - #{$gutter-horizontal * ($m - 1)}) / #{$m}) ;
+}
